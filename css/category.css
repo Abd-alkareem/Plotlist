@@ -207,6 +207,12 @@ header .togg {
     padding-left: 5vh;
 }
 
+@media(max-width:577px) {
+    .landing {
+        padding-left: 0 !important;
+    }
+}
+
 .landing span {
     font-weight: bold;
     color: white;
